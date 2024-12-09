@@ -4,7 +4,7 @@ import java.net.*;
 public class Client {
     public static void main(String[] args) {
         String host = "127.0.0.1"; // Server address
-        int port = 5050;
+        int port = 5085;
 
         try (Socket socket = new Socket(host, port);
              BufferedReader input = new BufferedReader(new InputStreamReader(System.in));

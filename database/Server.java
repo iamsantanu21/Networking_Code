@@ -8,7 +8,7 @@ public class Server {
     private static final String DB_PASSWORD = "Sm210899@"; // Your MySQL password
 
     public static void main(String[] args) {
-        int port = 5050;
+        int port = 5085;
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Server is listening on port " + port);
