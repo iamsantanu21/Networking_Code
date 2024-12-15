@@ -1,0 +1,4 @@
+Terminal 1: javac *.java
+            rmiregistry 
+Terminal 2: java RMIAuthServer
+Terminal 3: java RMIAuthClient

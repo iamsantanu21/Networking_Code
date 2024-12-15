@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class RMIAuthClient {
     public static void main(String[] args) {
         // String host = "127.0.0.1"; // Server address
-        // int port = 5080;
+        // int port = 5088;
 
         try {
             // Look up the remote object
-            AuthService authService = (AuthService) Naming.lookup("rmi://localhost:5080/AuthService");
+            AuthService authService = (AuthService) Naming.lookup("rmi://localhost:5088/AuthService");
 
             // Get email and password from user
             Scanner scanner = new Scanner(System.in);
