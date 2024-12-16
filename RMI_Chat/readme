@@ -1,6 +1,0 @@
-Terminal 1: javac *.java
-            rmiregistry 
-Terminal 2: java ChatServerApp
-Terminal 3: java ChatClientApp
-Terminal 4: java ChatClientApp
-Terminal 5: java ChatClientApp
